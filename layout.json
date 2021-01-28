@@ -1,0 +1,16 @@
+{
+  "content": [
+    {
+      "path": "html_ui/InGamePanels/WidgetForVFRMap/WidgetForVFRMap.css"
+    },
+    {
+      "path": "html_ui/InGamePanels/WidgetForVFRMap/WidgetForVFRMap.html"
+    },
+    {
+      "path": "html_ui/InGamePanels/WidgetForVFRMap/WidgetForVFRMap.js"
+    },
+    {
+      "path": "html_ui/Textures/Menu/toolbar/ICON_TOOLBAR_WIDGET_VFRMAP.svg"
+    }
+  ]
+}

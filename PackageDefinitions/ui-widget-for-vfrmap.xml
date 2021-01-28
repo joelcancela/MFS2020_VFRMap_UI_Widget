@@ -1,0 +1,22 @@
+<AssetPackage Name="ui-widget-for-vfrmap" Version="2.0.0">
+	<ItemSettings>
+		<ContentType>SPB</ContentType>
+		<Title>ui-widget-for-vfrmap</Title>
+		<Manufacturer>SkyFox07</Manufacturer>
+		<Creator>SkyFox07</Creator>
+	</ItemSettings>
+	<Flags>
+		<VisibleInStore>false</VisibleInStore>
+		<CanBeReferenced>false</CanBeReferenced>
+	</Flags>
+	<AssetGroups>
+		<AssetGroup Name="ui-widget-for-vfrmap">
+			<Type>SPB</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\</AssetDir>
+			<OutputDir>InGamePanels\</OutputDir>
+		</AssetGroup>
+	</AssetGroups>
+</AssetPackage>
