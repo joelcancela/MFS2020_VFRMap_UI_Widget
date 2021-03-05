@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="Windows-1252"?>
 <SimBase.Document Type="InGamePanels" version="1,0">
   <Filename>InGamePanel_WidgetForVFRMap.spb</Filename>
-  <InGamePanels.InGamePanelDefinition id="PANEL_CUSTOM_PANEL" Name="WidgetForVFRMap" url="html_UI/ingamePanels/WidgetForVFRMap/WidgetForVFRMap.html" resizeDirections="Both" minWidth="33" minHeight="35" defaultWidth="36" defaultHeight="36" defaultTop="33" defaultRight="2" icon="ICON_TOOLBAR_WIDGET_VFRMAP" buttonVisible="true">
+  <InGamePanels.InGamePanelDefinition id="PANEL_VFRMAP_PLUGIN_PANEL" Name="WidgetForVFRMap" url="html_UI/ingamePanels/WidgetForVFRMap/WidgetForVFRMap.html" resizeDirections="Both" minWidth="33" minHeight="35" defaultWidth="36" defaultHeight="36" defaultTop="33" defaultRight="2" icon="ICON_TOOLBAR_WIDGET_VFRMAP" buttonVisible="true">
   </InGamePanels.InGamePanelDefinition>
 </SimBase.Document>
