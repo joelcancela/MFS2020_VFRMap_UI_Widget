@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<SimBase.Document Type="InGamePanels" version="1,0">
+  <Filename>InGamePanel_WidgetForLandingInspector.spb</Filename>
+  <InGamePanels.InGamePanelDefinition id="PANEL_LANDING_INSPECTOR_PLUGIN_PANEL" Name="WidgetForLandingInspector" url="html_UI/ingamePanels/WidgetForLandingInspector/WidgetForLandingInspector.html" resizeDirections="Both" minWidth="33" minHeight="35" defaultWidth="36" defaultHeight="36" defaultTop="33" defaultRight="2" icon="ICON_TOOLBAR_WIDGET_LANDING_INSPECTOR" buttonVisible="true">
+  </InGamePanels.InGamePanelDefinition>
+</SimBase.Document>

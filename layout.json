@@ -1,16 +1,16 @@
 {
   "content": [
     {
-      "path": "html_ui/InGamePanels/WidgetForVFRMap/WidgetForVFRMap.css"
+      "path": "html_ui/InGamePanels/WidgetForLandingInspector/WidgetForLandingInspector.css"
     },
     {
-      "path": "html_ui/InGamePanels/WidgetForVFRMap/WidgetForVFRMap.html"
+      "path": "html_ui/InGamePanels/WidgetForLandingInspector/WidgetForLandingInspector.html"
     },
     {
-      "path": "html_ui/InGamePanels/WidgetForVFRMap/WidgetForVFRMap.js"
+      "path": "html_ui/InGamePanels/WidgetForLandingInspector/WidgetForLandingInspector.js"
     },
     {
-      "path": "html_ui/Textures/Menu/toolbar/ICON_TOOLBAR_WIDGET_VFRMAP.svg"
+      "path": "html_ui/Textures/Menu/toolbar/ICON_TOOLBAR_WIDGET_LANDING_INSPECTOR.svg"
     }
   ]
 }

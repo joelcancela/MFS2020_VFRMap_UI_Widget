@@ -1,0 +1,7 @@
+<Project Version="2" Name="ui-widget-for-landing-inspector" FolderName="Packages">
+	<OutputDirectory>_dist</OutputDirectory>
+	<TemporaryOutputDirectory>_build</TemporaryOutputDirectory>
+	<Packages>
+		<Package>PackageDefinitions\ui-widget-for-landing-inspector.xml</Package>
+	</Packages>
+</Project>

@@ -1,4 +1,4 @@
-class IngamePanelWidgetVFRMap extends TemplateElement {
+class IngamePanelWidgetForLandingInspector extends TemplateElement {
     constructor() {
         super(...arguments);
 
@@ -79,7 +79,7 @@ class IngamePanelWidgetVFRMap extends TemplateElement {
         var self = this;
         this.ingameUi = this.querySelector('ingame-ui');
 
-        this.iframeElement = document.getElementById("WidgetVFRMapIframe");
+        this.iframeElement = document.getElementById("WidgetForLandingInspectorIframe");
 
         this.m_MainDisplay = document.querySelector("#MainDisplay");
         this.m_MainDisplay.classList.add("hidden");
@@ -92,7 +92,7 @@ class IngamePanelWidgetVFRMap extends TemplateElement {
                 console.log('panelActive');
                 self.panelActive = true;
                 if (self.iframeElement) {
-                    self.iframeElement.src = 'http://localhost:9000';
+                    self.iframeElement.src = 'http://localhost:5000';
                 }
             });
             this.ingameUi.addEventListener("panelInactive", (e) => {
@@ -124,7 +124,7 @@ class IngamePanelWidgetVFRMap extends TemplateElement {
         //this.m_Footer = document.querySelector("#Footer");
         //this.m_Footer.classList.add("hidden");
 
-        //this.iframeElement = document.getElementById("WidgetVFRMapIframe");
+        //this.iframeElement = document.getElementById("WidgetForLandingInspectorIframe");
         //this.ingameUi = this.querySelector('ingame-ui');
 
         /*if (this.ingameUi) {
@@ -154,5 +154,5 @@ class IngamePanelWidgetVFRMap extends TemplateElement {
 
     }
 }
-window.customElements.define("widget-vfrmap", IngamePanelWidgetVFRMap);
+window.customElements.define("widget-landinginspector", IngamePanelWidgetForLandingInspector);
 checkAutoload();

@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="/SCSS/common.css" />
-    <link rel="stylesheet" href="WidgetForVFRMap.css" />
+    <link rel="stylesheet" href="WidgetForLandingInspector.css" />
 
     <script type="text/javascript" src="/JS/coherent.js"></script>
     <script type="text/javascript" src="/JS/common.js"></script>
@@ -20,14 +20,14 @@
     <link rel="import" href="/templates/NewListButton/NewListButton.html" />
 
     <script type="text/javascript" src="/JS/debug.js"></script>
-    <script type="text/javascript" src="WidgetForVFRMap.js"></script>
+    <script type="text/javascript" src="WidgetForLandingInspector.js"></script>
 </head>
 
 <body class="border-box">
-    <widget-vfrmap>
-        <ingame-ui id="WidgetVFRMap" panel-id="PANEL_VFRMAP_PLUGIN_PANEL" title="" class="ingameUiFrame panelInvisible" content-fit="true" min-width="160" min-height="90">
-            <div id="WidgetVFRMapWrap">
-                <iframe id="WidgetVFRMapIframe" src=""></iframe>
+    <widget-landinginspector>
+        <ingame-ui id="WidgetForLandingInspector" panel-id="PANEL_LANDING_INSPECTOR_PLUGIN_PANEL" title="" class="ingameUiFrame panelInvisible" content-fit="true" min-width="160" min-height="90">
+            <div id="WidgetForLandingInspectorWrap">
+                <iframe id="WidgetForLandingInspectorIframe" src=""></iframe>
             </div>
             <section id="MainDisplay">
                 header
@@ -36,6 +36,6 @@
                 footer
             </section>
         </ingame-ui>
-    </widget-vfrmap>
+    </widget-landinginspector>
 </body>
 </html>

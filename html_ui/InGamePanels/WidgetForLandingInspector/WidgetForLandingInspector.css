@@ -1,5 +1,5 @@
 ﻿/** This mixin makes a single line element fit exactly on the Roboto font for easier integration. */
-ingame-ui#WidgetVFRMap {
+ingame-ui#WidgetForLandingInspector {
   display:flex;
   flex-direction:column;
   align-items:center;
@@ -8,7 +8,7 @@ ingame-ui#WidgetVFRMap {
   width: 100% !important;
   /*border: 2px solid blue !important;*/
 }
-ingame-ui#WidgetVFRMap #WidgetVFRMapWrap {
+ingame-ui#WidgetForLandingInspector #WidgetForLandingInspectorWrap {
   display: flex;
   flex-direction: column;
   width: 100% !important;
@@ -20,17 +20,17 @@ ingame-ui#WidgetVFRMap #WidgetVFRMapWrap {
   align-items: stretch !important;
   flex: 1 1 auto !important;
 }
-ingame-ui#WidgetVFRMap #WidgetVFRMapWrap #WidgetVFRMapIframe {
+ingame-ui#WidgetForLandingInspector #WidgetForLandingInspectorWrap #WidgetForLandingInspectorIframe {
   flex: 1 1 auto !important;
   border: 0;
 }
-ingame-ui#WidgetVFRMap #MainDisplay.hidden {
+ingame-ui#WidgetForLandingInspector #MainDisplay.hidden {
   display: none;
 }
-ingame-ui#WidgetVFRMap #Footer.hidden {
+ingame-ui#WidgetForLandingInspector #Footer.hidden {
   display: none;
 }
-ingame-ui#WidgetVFRMap .ingameUiContent {
+ingame-ui#WidgetForLandingInspector .ingameUiContent {
   /*border: 2px solid green !important;*/
   display: flex !important;
   flex-direction: column !important;
@@ -42,7 +42,7 @@ ingame-ui#WidgetVFRMap .ingameUiContent {
   align-items: stretch !important;
   flex: 1 1 auto !important;
 }
-ingame-ui#WidgetVFRMap .ingameUiWrapper {
+ingame-ui#WidgetForLandingInspector .ingameUiWrapper {
   /*border: 2px solid yellow !important;*/
   display: flex !important;
   flex-direction: column !important;
