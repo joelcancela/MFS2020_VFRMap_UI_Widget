@@ -17,11 +17,11 @@
   "title": "ui-widget-for-vfrmap",
   "manufacturer": "SkyFox07",
   "creator": "SkyFox07",
-  "package_version": "1.0.0",
+  "package_version": "1.1.1",
   "minimum_game_version": "1.8.3",
   "release_notes": {
     "neutral": {
-      "LastUpdate": "",
+      "LastUpdate": "Version 1.1.1\\nWidget icon for Sim Update 7 compatibility",
       "OlderHistory": ""
     }
   },
