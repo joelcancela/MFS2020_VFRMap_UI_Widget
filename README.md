@@ -6,7 +6,15 @@ Toolbar widget for Microsoft Flight Simulator to display [VFRMap plugin](https:/
 
 ![In game overview](/_doc/Ingame.jpg)
 
-## Build
+## Players section - How to use it
+
+* Download the package ``ui-widget-for-vfrmap.zip`` from the [releases](https://github.com/joelcancela/MFS2020_VFRMap_UI_Widget/releases) section or from [Flightsim.to](https://flightsim.to/file/9424/mfs-2020-ui-widget-for-vfrmap)
+* Extract it in your community packages folder
+* Download VFRMap [here](https://www.msfsaddons.org/freeware/plugin-vfrmap) and follow their setup guide
+* Instead of launching your browser, click on the widget in the toolbar in game, the map should now appear
+* Enjoy!
+
+## Devs section - How to build it
 
 ### Pre-requisites
 
@@ -30,3 +38,4 @@ Toolbar widget for Microsoft Flight Simulator to display [VFRMap plugin](https:/
 ## Credits
 
 * Credits to [bymaximus's msfs2020's toolbar template](https://github.com/bymaximus/msfs2020-toolbar-window-template)
+* Credits to [lian](https://github.com/lian/) for his awesome [VFRMap](https://www.msfsaddons.org/freeware/plugin-vfrmap) plugin
